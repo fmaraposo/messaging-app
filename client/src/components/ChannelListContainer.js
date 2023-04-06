@@ -14,7 +14,7 @@ const SideBar = () => (
     </div>
     <div className="channel-list__sidebar__icon2">
       <div className="icon1__inner">
-        <img src={Logout} alt="Logout" width={30} />
+        <img src={Logout} alt="Logout" width={35} />
       </div>
     </div>
   </div>
