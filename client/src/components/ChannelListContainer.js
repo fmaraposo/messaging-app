@@ -24,7 +24,7 @@ const SideBar = ({ logout }) => (
 
 const CompanyHeader = () => (
   <div className="channel-list__header">
-    <p className="channel-list__header__text">Medical Pager</p>
+    <p className="channel-list__header__text">Simpsons Chat</p>
   </div>
 );
 
@@ -62,7 +62,7 @@ const ChannelListContent = ({
       <SideBar logout={logout} />
       <div className="channel-list__list__wrapper">
         <CompanyHeader />
-        <ChannelSearch />
+        <ChannelSearch setToggleContainer={setToggleContainer}/>
         <ChannelList
           filters={filters}
           channelRenderFilterFn={customChannelTeamFilter}
